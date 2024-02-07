@@ -29,7 +29,7 @@ input{
     font-size:4rem;
     background-color: #181818;
     border:none;
-
+    outline: none;
 }
 
 #buttons{
@@ -39,7 +39,6 @@ input{
     padding:25px;
 }
 
-/* botões normais */
 button{
     width:75px;
     height:75px;
@@ -58,14 +57,15 @@ button:active{
     background-color:#555;
 }
 
-.op{
+.opKeys{
     background-color: #ff9f0a;
 }
-.op:hover{
+.opKeys:hover{
     background-color: hsl(36, 98%, 58%);
 }
-.op:active{
+.opKeys:active{
     background-color: hsl(36, 100%, 65%);
 }
-
-
+#display2 {
+display:none;
+}
